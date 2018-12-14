@@ -1,5 +1,5 @@
 import math
-import s3_handson.png
+import s3_handson.png as png
 import struct
 
 from s3_handson.util import *
