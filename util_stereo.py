@@ -1,5 +1,5 @@
 import math
-import s3_handson.png as png
+import s3_handson.png
 import struct
 
 from s3_handson.util import *
@@ -133,7 +133,7 @@ def ConvertMiddlebury2014PfmToKitti2015Png(src_path, dest_path):
         png_disp.append(out_row)
     
     with open(dest_path, 'wb') as dest_png_file:
-        png_writer = png.Writer(width=pfm_width, height=pfm_height, bitdepth=16, compression=9, greyscale=True)
+        png_writer = s3_handson.png.Writer(width=pfm_width, height=pfm_height, bitdepth=16, compression=9, greyscale=True)
         #png_writer = png.Writer(width=pfm_width, height=pfm_height, bitdepth=8, compression=9, greyscale=True)
         png_writer.write(dest_png_file, png_disp)
 
