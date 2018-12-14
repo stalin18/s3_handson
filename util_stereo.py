@@ -1,8 +1,8 @@
 import math
-import png
+import s3_handson.png
 import struct
 
-from util import *
+from s3_handson.util import *
 
 
 # Reads a .txt file containing the reported runtime in seconds for a Middlebury
