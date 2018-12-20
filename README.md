@@ -10,13 +10,19 @@ I. Representative diagrams/images and 1-2 training/testing images for demonstrat
 7. Middlebury: http://vision.middlebury.edu/stereo
 8. ETH3D: https://www.eth3d.net/low_res_two_view
 
+
 II. Utility functions for converting pfm files to png (util.py, util_stereo.py and png.py) have been taken from:
 1. http://www.cvlibs.net:3000/ageiger/rob_devkit
 
+
 III. Utility to read and write pfm files is taken from original authors of Scene Flow:
-1. https://lmb.informatik.uni-freiburg.de/resources/, 
-direct link: https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlow/assets/code/python_pfm.py
-The file is modified to suite our execution environment
+1. https://lmb.informatik.uni-freiburg.de/resources/
+
+Direct link: https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlow/assets/code/python_pfm.py
+
+The file has been modified to suite our execution environment
+
+
 
 
 
