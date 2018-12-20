@@ -22,6 +22,7 @@ The file is modified to suite our execution environment
 FINALLY, FOLLOW THESE STEPS TO RUN THE CODE:
 1. Make sure you are inside "Session_3" directory Open "session_3_depth_hands_on.ipynb" notebook 
 
-2. Execute the initial 4-5 lines in the notebook: they are for cloning the git repository and setting up file locations
+2. Execute the initial 4-5 lines in the notebook: they are for cloning the git repository (if required) and merging and moving weight files
+* NOTE: Github doesn't allow files of more than 100 MB, so I've splitted the weights files into two parts
 
 3. main.py, model.py and dataloader.py constitute final merged code, refer them to know how do write a full working code after following the jupyter notebook hands-on
